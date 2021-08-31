@@ -10,11 +10,7 @@ app.use(express.static("public"));
 
 
 app.get('/',(req,res)=>{
-    res.render('main');
-})
-
-app.post('/data',(req,res)=>{
-    console.log(req.body);
+    res.render('home');
 })
 
 
